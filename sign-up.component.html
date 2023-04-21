@@ -1,0 +1,12 @@
+<body>
+    <h1>SIGN UP PAGE</h1>
+    <form (submit)="onSubmit()" #signupForm="ngForm" action="">
+      <input type="text" id="cusname" name="Customername" placeholder="Customer Name" [(ngModel)]="signupData.Customername"><br>
+      <input type="text" id="cusID" name="cusID" placeholder="Customer-ID" [(ngModel)]="signupData.cusID"><br>
+      <input type="tel" id="mno" name="mno" placeholder="Contact Number" [(ngModel)]="signupData.mno"><br>
+      <input type="text" id="addr" name="addr" placeholder="Address" [(ngModel)]="signupData.addr"><br>
+      <input type="email" id="emailID" name="emailID" placeholder="Email-ID" [(ngModel)]="signupData.emailID"><br>
+      <input type="submit" placeholder="SUBMIT">
+    </form>
+  </body>
+  

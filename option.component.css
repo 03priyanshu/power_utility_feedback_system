@@ -1,0 +1,19 @@
+body{
+    background-color: #D2EBF0;
+    height: 750px;
+}
+button{
+    background-color:  #99C5E5;
+    text-align: center;
+    cursor: pointer;
+    padding: 50px 30px;
+    margin: 4px 2px;
+    border-radius: 5%;
+    margin-top: 20%;
+    margin-right: 50px;
+
+}
+div{
+    display: flex;
+    justify-content: center;
+}

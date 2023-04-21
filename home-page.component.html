@@ -1,0 +1,10 @@
+<body>
+    <h1>Feedback Portal</h1>
+    <h3>WELCOME !</h3>
+    <form action="">
+        <input type="text" id="userID" [(ngModel)]="userID" name="userID"  placeholder="USER-ID" ><br>
+        <input type="password" id="passwd" [(ngModel)]="passwd" name="passwd" (ngModelChange)="passwd = $event" placeholder="Password"><br>
+        <input type="submit" placeholder="LOGIN" (click)="router()">
+    </form>
+    <p>Create an account <a href="" routerLink="signup">Sign up!</a></p>
+</body>

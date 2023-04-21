@@ -1,0 +1,59 @@
+body{
+    background-color: #D2EBF0;
+    height: 750px;
+}
+h1{
+    text-align: center;
+    padding: 35px;
+}form{
+    padding: 15px;
+    text-align: center;
+    color: #99C5E5;
+}
+input[type=text]{
+    width: 50%;
+    background-color:  #99C5E5;
+    border-radius: 5%;
+    padding: 15px 2px;
+    margin: 15px 0;
+}
+input[type=text]::placeholder{
+    text-align: center;
+    color: black;
+}
+
+input[type=tel]{
+    width: 50%;
+    background-color:  #99C5E5;
+    border-radius: 5%;
+    padding: 15px 2px;
+    margin: 15px 0;
+}
+input[type=tel]::placeholder{
+    text-align: center;
+    color: black;
+}
+
+input[type=email]{
+    width: 50%;
+    background-color:  #99C5E5;
+    border-radius: 5%;
+    padding: 15px 2px;
+    margin: 15px 0;
+}
+input[type=email]::placeholder{
+    text-align: center;
+    color: black;
+}
+
+input[type=submit]{
+    width: 25%;
+    background-color: #0788B1;
+    border-radius: 5%;
+    padding: 15px 2px;
+    cursor: pointer;
+}
+input[type=submit]::placeholder{
+    text-align: center;
+    color: black;
+}
